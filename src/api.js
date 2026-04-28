@@ -1,6 +1,6 @@
 // ── config ────────────────────────────────────────────────────────────────────
 // Change this to your deployed Render URL in production
-const BASE_URL = process.env.REACT_APP_API_URL || 'https://realestateapp-1-v8ut.onrender.com';
+const BASE_URL = 'https://realestateapp-1-v8ut.onrender.com';
 
 // ── chat ──────────────────────────────────────────────────────────────────────
 export async function sendChat({ sessionId, message, history }) {
